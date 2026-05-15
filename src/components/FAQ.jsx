@@ -21,8 +21,8 @@ const faqs = [
     a: "Sí. La interfaz está diseñada para ser responsive y funciona correctamente en dispositivos móviles, tanto para docentes como para familias.",
   },
   {
-    q: "¿El precio es por usuario o por institución?",
-    a: "El precio es por institución, no por usuario. Podés incorporar a todo el equipo docente, administrativo y las familias sin costo adicional por cantidad.",
+    q: "¿Cómo se define el precio?",
+    a: "El precio se acuerda según el tamaño y las necesidades de cada institución. No es lo mismo un colegio de 100 alumnos que uno de 1.000. Contactanos y te armamos una propuesta a medida.",
   },
   {
     q: "¿Ofrecen soporte después de la implementación?",
