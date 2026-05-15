@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     q: "¿Cómo se define el precio?",
-    a: "El precio se acuerda según el tamaño y las necesidades de cada institución. No es lo mismo un colegio de 100 alumnos que uno de 1.000. Contactanos y te armamos una propuesta a medida.",
+    a: "El valor se define según el tamaño y las características de cada institución. Trabajamos con una propuesta personalizada para que el costo sea acorde a la realidad de cada colegio. Podés consultarnos sin compromiso.",
   },
   {
     q: "¿Ofrecen soporte después de la implementación?",
