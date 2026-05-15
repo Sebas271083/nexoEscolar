@@ -6,7 +6,7 @@ import { Menu, X } from "lucide-react";
 const NAV_LINKS = [
   { href: "#modulos", label: "Módulos" },
   { href: "#beneficios", label: "Beneficios" },
-  { href: "#precios", label: "Planes" },
+  { href: "#planes", label: "Planes" },
 ];
 
 export default function Header() {

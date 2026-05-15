@@ -2,10 +2,14 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #0f172a;
+  --foreground: #1a1a1a;
 
-  --primary: #0ea5e9;
-  --secondary: #14b8a6;
+  --primary: #0084FF;
+  --secondary: #1D9E75;
+  --gray-dark: #1A1A1A;
+  --gray-medium: #666666;
+  --gray-light: #F8F9FA;
+  --gray-border: #E0E0E0;
 }
 
 html {
@@ -15,7 +19,7 @@ html {
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 }
 
 .section-container {
@@ -32,4 +36,28 @@ body {
 
 .secondary-button {
   @apply border border-slate-300 hover:border-sky-400 px-6 py-3 rounded-xl font-semibold transition-all duration-300;
+}
+
+.success-badge {
+  @apply inline-flex items-center gap-1 px-3 py-1 rounded-full bg-green-50 text-green-600 text-xs font-bold;
+}
+
+.info-badge {
+  @apply inline-flex items-center gap-1 px-3 py-1 rounded-full bg-blue-50 text-blue-600 text-xs font-bold;
+}
+
+.section-label {
+  @apply text-sky-500 font-bold text-sm uppercase tracking-wide;
+}
+
+.benefit-card {
+  @apply rounded-lg bg-white border border-slate-200 p-6 hover:shadow-md transition;
+}
+
+.module-card {
+  @apply rounded-xl bg-slate-50 border border-slate-200 p-7 hover:shadow-lg transition;
+}
+
+.faq-accordion {
+  @apply bg-white border border-slate-200 rounded-lg p-5;
 }

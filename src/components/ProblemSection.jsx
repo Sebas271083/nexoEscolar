@@ -28,13 +28,11 @@ export default function ProblemSection() {
           </span>
 
           <h2 className="mt-3 text-3xl md:text-5xl font-extrabold tracking-tight">
-            La comunicación escolar no puede depender solo de WhatsApp
+            La comunicación escolar depende demasiado de WhatsApp
           </h2>
 
           <p className="mt-5 text-slate-600 text-lg leading-relaxed">
-            Cuando no existe una plataforma institucional, los mensajes se
-            pierden, los avisos se duplican y la gestión diaria se vuelve más
-            difícil para directivos, docentes y familias.
+            Sin una plataforma institucional, los colegios enfrentan:
           </p>
         </div>
 

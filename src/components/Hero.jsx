@@ -22,8 +22,9 @@ export default function Hero() {
             transition={{ delay: 0.1 }}
             className="mt-6 text-4xl md:text-6xl font-extrabold leading-tight tracking-tight"
           >
-            La comunicación escolar,{" "}
-            <span className="gradient-text">ordenada y profesional</span>
+            Reemplazá WhatsApp:{" "}
+            <br className="hidden md:inline" />
+            <span className="gradient-text">la comunicación institucional que necesitás</span>
           </motion.h1>
 
           <motion.p
@@ -32,9 +33,8 @@ export default function Hero() {
             transition={{ delay: 0.2 }}
             className="mt-6 text-lg text-slate-600 leading-relaxed max-w-xl"
           >
-            NexoEscolar centraliza anuncios, calendario, usuarios, cursos y
-            auditoría en una plataforma moderna pensada para instituciones
-            educativas.
+            Centraliza anuncios, calendario y auditoría en una plataforma segura.
+            Todos en la misma página, sin caos ni ruidos.
           </motion.p>
 
           <motion.div
@@ -43,11 +43,11 @@ export default function Hero() {
             transition={{ delay: 0.3 }}
             className="mt-8 flex flex-col sm:flex-row gap-4"
           >
-            <a href="#contacto" className="primary-button text-center">
-              Solicitar demo
+            <a href="#planes" className="primary-button text-center">
+              Iniciar gratis (100 alumnos)
             </a>
             <a href="#modulos" className="secondary-button text-center">
-              Ver módulos
+              Ver cómo funciona
             </a>
           </motion.div>
         </div>

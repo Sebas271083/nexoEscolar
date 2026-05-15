@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import ProblemSection from "@/components/ProblemSection";
 import Features from "@/components/Features";
 import Modules from "@/components/Modules";
+import Credibility from "@/components/Credibility";
 import Screenshots from "@/components/Screenshots";
 import Pricing from "@/components/Pricing";
 import FAQ from "@/components/FAQ";
@@ -18,6 +19,7 @@ export default function Home() {
       <ProblemSection />
       <Features />
       <Modules />
+      <Credibility />
       <Screenshots />
       <Pricing />
       <FAQ />
