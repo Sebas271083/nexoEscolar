@@ -4,7 +4,9 @@ import ProblemSection from "@/components/ProblemSection";
 import Features from "@/components/Features";
 import Modules from "@/components/Modules";
 import Screenshots from "@/components/Screenshots";
+import Testimonials from "@/components/Testimonials";
 import Pricing from "@/components/Pricing";
+import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
@@ -18,7 +20,9 @@ export default function Home() {
       <Features />
       <Modules />
       <Screenshots />
+      <Testimonials />
       <Pricing />
+      <FAQ />
       <CTA />
       <Footer />
       <WhatsAppButton />
